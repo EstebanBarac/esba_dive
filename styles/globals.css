@@ -11,3 +11,9 @@ html {
 .custom-img {
   background-image:url('../public/img/Conservation_PADI\ 1.jpg');
 }
+
+@media (max-width: 600px) {
+  .custom-img {
+    background-image: url('../public/img/pexels-pia-3046582.jpg');
+  }
+}
