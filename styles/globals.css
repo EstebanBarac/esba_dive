@@ -9,12 +9,5 @@ html {
 
 
 .custom-img {
-  background-image: url('../public/img/pexels-pia-3046582.jpg');
-  object-fit: cover;
-}
-
-@media (min-width: 600px) {
-  .custom-img {
-    background-image: url('../public/img/Conservation_PADI\ 1.jpg');
-  }
+  background-image: url('../public/img/Conservation_PADI\ 1.jpg');
 }
