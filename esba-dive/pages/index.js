@@ -1,7 +1,8 @@
-import Head from 'next/head'
-import Hero from '../components/Hero'
+import Head from 'next/head';
+import Cards from '../components/Cards';
+import Hero from '../components/Hero';
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
       <Head>
@@ -10,6 +11,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero heading='Esba Dive' message='Cursos de buceo con certificacion internacional'/>
+      <Cards />
     </div>
+  
   )
-}
+};
+
+export default Home;
