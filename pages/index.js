@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Cards from '../components/Cards';
 import Hero from '../components/Hero';
+import Nosotros from '../components/Nosotros';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero heading='Esba Dive' message='Cursos de buceo con certificacion internacional'/>
+      <Nosotros />
       <Cards />
     </div>
   

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function Cards() {
   return (
@@ -7,14 +7,14 @@ export default function Cards() {
         <div className="container px-5 py-24 mx-auto">
             <div className="text-center mb-12">
                 <h5 className="text-base md:text-lg text-indigo-700 mb-1">Aprendé con Nosotros</h5>
-                <h1 className="text-4xl md:text-6xl text-gray-700 font-semibold">Nuestros Cursos de Buceo</h1>
+                <h2 className="text-4xl md:text-6xl text-gray-700 font-semibold">Nuestros Cursos de Buceo</h2>
             </div>
             <div className="flex flex-wrap -m-4 ">
 
                 <div className="p-4 sm:w-1/2 lg:w-1/3 ">
                     <div className="h-full shadow-2xl shadow-slate-700 rounded-2xl overflow-hidden text-white bg-zinc-800">
                         <img className="lg:h-[30rem]  w-full sm:object-cover object-center"
-                            src="https://cdn.discordapp.com/attachments/841443299839574017/1038264440279269436/Rectangle_2_1.png" alt="blog" />
+                            src='https://cdn.discordapp.com/attachments/841443299839574017/1047331318578556979/open_water.jpg' alt="blog" />
                         <div class="p-6 ">
                             <h2 className="text-2xl font-bold mb-3">PADI Open Water</h2>
                             <p className="leading-relaxed text-lg mb-3">El PADI Open Water Diver es el primer nivel de certificación de buceo. Un PADI Instructor altamente entrenado te enseñará a bucear en un entorno de aprendizaje relajado y seguro. Aprende los principios y la terminología del buceo, adquiere las destrezas básicas de buceo y conocimientos para bucear en tu entorno local o en el extranjero y ser un embajador del mundo subacuático</p>
@@ -38,7 +38,7 @@ export default function Cards() {
                 <div class="p-4 sm:w-1/2 lg:w-1/3">
                     <div class="h-full shadow-2xl shadow-slate-700 rounded-2xl overflow-hidden text-white bg-zinc-800">
                         <img class="lg:h-[30rem]  w-full sm:object-cover object-center"
-                            src="https://cdn.discordapp.com/attachments/841443299839574017/1038264126243340328/Rectangle_2.png" alt="blog" />
+                            src="https://cdn.discordapp.com/attachments/841443299839574017/1047331354645377084/advanced.jpg" alt="blog" />
                         <div class="p-6  hover:text-white ">
                             <h2 class="text-2xl font-bold mb-3">PADI Advanced Open Water Diver</h2>
                             <p class="leading-relaxed text-lg mb-3">El curso Advanced Open Water Diver perfecciona tus técnicas. Practicarás navegación y
@@ -63,7 +63,7 @@ export default function Cards() {
                 <div className="p-4 sm:w-1/2 lg:w-1/3">
                     <div className="h-full shadow-2xl shadow-slate-700 rounded-2xl overflow-hidden text-white bg-zinc-800">
                         <img className="lg:h-[30rem]  w-full sm:object-cover object-center"
-                            src="https://cdn.discordapp.com/attachments/841443299839574017/1038261724953972746/Rectangle_1_2.png" alt="blog" />
+                            src="https://cdn.discordapp.com/attachments/841443299839574017/1047332820336525333/specialities2.jpg" alt="blog" />
                         <div className="p-6">
                             <h2 className="text-2xl font-bold mb-3">PADI Specialities</h2>
                             <p className="leading-relaxed text-lg mb-3">Bucea a mayor profundidad en la exploración del planeta azul con habilidades avanzadas de
