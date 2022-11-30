@@ -19,11 +19,11 @@ const Navbar = () => {
     useEffect(()=> {
         const changeColor = () => {
             if(window.scrollY >= 90) {
-                setColor('#ffffff')
-                setTextColor('#000000')
+                setColor('#27272a') 
+                setTextColor('white')
             } else {
-                setColor('transparent')
-                setTextColor('#ffffff')
+                setColor('#e5e7eb')
+                setTextColor('black')
             }
         }
         window.addEventListener('scroll', changeColor);
@@ -32,17 +32,17 @@ const Navbar = () => {
 
 
   return (
-    <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full bg-stone-900 z-10 ease-in duration-300'>
+    <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
             <Link href='/'>
             <h1 style={{color: `${textcolor}`}} className='font-bold text-4xl'>ESBA DIVE</h1>
             </Link>
             <ul style={{color: `${textcolor}`}} className='hidden sm:flex'>
                 <li className='p-4'>
-                    <Link href='/#cursos'>Cursos</Link>
+                    <Link href='/#cursos' className='text-lg font-bold'>CURSOS</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='/#nosotros'>Sobre Nosotros</Link>
+                    <Link href='/#nosotros' className='text-lg font-bold'>SOBRE NOSOTROS</Link>
                 </li>
             </ul>
 
