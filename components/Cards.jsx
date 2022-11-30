@@ -144,60 +144,67 @@ export default function Cards() {
 
 
       {showModal2 ? ( 
-      <div className={styles.modal}>
-        <div className={styles.modalContent}>
-          <h3>Continúa tu viaje de buceo con el curso PADI Advanced Open Water Diver.</h3>
-          <p>Bucea a mayor profundidad en la exploración del planeta azul con habilidades avanzadas de
-              buceo y certificaciones de especialidad. Tanto si quieres ampliar tus conocimientos de buceo
-              como experimentar una nueva especialidad de buceo, nuestros cursos te prepararán para la
-              aventura subacuática.
-          </p>
-          <p>Bucea a mayor profundidad en la exploración del planeta azul con habilidades avanzadas de
-            buceo y certificaciones de especialidad. Tanto si quieres ampliar tus conocimientos de buceo
-            como experimentar una nueva especialidad de buceo, nuestros cursos te prepararán para la
-            aventura subacuática.
-          </p> 
-              <p>Vive nuevas aventuras con un PADI Instructor a tu lado. Perfecciona tus habilidades de
+        <>
+      <div className="flex justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+      <div className="relative w-full my-6 mx-auto max-w-xl sm:m-3">
+        <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full text-black bg-slate-200 outline-none focus:outline-none">
+          <div className="flex items-start justify-between p-5 border-b border-solid border-gray-300 rounded-t">
+            <h2 className="text-3xl font-bold">PADI Advanced Open Water Diver.</h2>
+          </div>
+          <div className="relative p-6 flex-auto">
+                  <p className='text-lg font-semibold mt-2'>Bucea a mayor profundidad en la exploración del planeta azul con habilidades avanzadas de
+                    buceo y certificaciones de especialidad. Tanto si quieres ampliar tus conocimientos de buceo
+                    como experimentar una nueva especialidad de buceo, nuestros cursos te prepararán para la
+                    aventura subacuática.
+                  </p>
+                      
+              <p className='text-lg font-semibold mt-2'>Bucea a mayor profundidad en la exploración del planeta azul con habilidades avanzadas de
+                    buceo y certificaciones de especialidad. Tanto si quieres ampliar tus conocimientos de buceo
+                    como experimentar una nueva especialidad de buceo, nuestros cursos te prepararán para la
+                    aventura subacuática.</p> 
+                  <p className='text-lg font-semibold mt-2'>Vive nuevas aventuras con un PADI Instructor a tu lado. Perfecciona tus habilidades de
                 flotabilidad, aumenta la confianza en tus técnicas de navegación y prueba nuevas actividades
-                de buceo a más de 18m/60pies de profundidad.
-              </p>
-             <h4>Lleva tus habilidades de buceo al siguiente nivel.</h4>
-             <p>El curso incluye cinco inmersiones: una inmersión profunda por debajo de los 18 m/60 pies,
+                de buceo a más de 18m/60pies de profundidad.</p>
+                  <h4 className='text-lg font-bold mt-2'>Lleva tus habilidades de buceo al siguiente nivel.</h4>
+                  <p className='text-lg font-semibold mt-2'>El curso incluye cinco inmersiones: una inmersión profunda por debajo de los 18 m/60 pies,
                 una inmersión de navegación, y tres inmersiones de especialidad. Obtén experiencia, crea
-                confianza y descubre tus capacidades de buceo.
-                </p> 
-          <p>Tiempo total: 2-3 días</p>
-          <p>Requisitos: Open Water Diver / Junior Open Water Diver (o certificación equivalente de otra
-              asociación)</p>   
-          <p>Edad mínima: 12 años o más</p>
-          <p>Profundidad: La profundidad máxima es de hasta 30 metros/100 pies</p>
-          <p>El curso contiene 2 especialidades obligatorias (especialidad en navegación y buceo profundo),
-            mientras que la parte restante del curso consiste en 3 especialidades a su elección y puede
-            escoger de los siguientes buceos de aventura:
-          </p>
-          <p>-Buceo Nocturno</p>
-          <p>-Buceo Profundo</p>
-          <p>-Búsqueda y Rescate</p>
-          <p>-Navegación Subacuática</p>
-          <p>-Buceo en Altura</p>
-          <p>-Sidemount</p>
+                confianza y descubre tus capacidades de buceo.</p>
+                  <p className='text-lg font-semibold mt-2'>Tiempo total: 2-3 días</p>
+                  <p className='text-lg font-semibold mt-2'>-Requisitos: Open Water Diver / Junior Open Water Diver (o certificación equivalente de otra
+                    asociación)</p>
+                  <p className='text-lg font-semibold mt-2'>Edad mínima: 12 años o más</p>
+                  <p className='text-lg font-semibold mt-2'>Profundidad: La profundidad máxima es de hasta 30 metros/100 pies</p>  
+                <p className='text-lg font-semibold mt-2'>El curso contiene 2 especialidades obligatorias (especialidad en navegación y buceo profundo),
+                mientras que la parte restante del curso consiste en 3 especialidades a su elección y puede
+                escoger de los siguientes buceos de aventura:</p>
+                <p className='text-lg font-semibold mt-2'>-Buceo Nocturno</p>
+                <p className='text-lg font-semibold'>-Buceo Profundo</p>
+                <p className='text-lg font-semibold'>-Búsqueda y Rescate</p>
+                <p className='text-lg font-semibold'>-Navegación Subacuática</p>
+                <p className='text-lg font-semibold'>-Buceo en Altura</p>
+                <p className='text-lg font-semibold'>-Sidemount</p>
 
-          <p>Entre otras opciones de especialidades.</p>
-             
-             
-             
-          <button className={styles.modalBtnInteresa}><Link href='https://api.whatsapp.com/send?phone=5492995125034&text=Buenas!%20Quiero%20mas%20informacion%20sobre%20el%20curso%20ADVANCED%20Open%20Water%20Diver'>Me interesa !!</Link></button>
-
-          <button className={styles.modalCerrar} onClick={() => setShowModal2(false)}>Cerrar</button>
+                <p className='text-lg font-semibold mt-2'>Entre otras opciones de especialidades.</p>
+          </div>
+          <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+            <button
+              className="bg-red-500 shadow-md shadow-red-500/50 hover:bg-red-700 text-white font-bold text-lg py-2 px-4 rounded mr-4"
+              type="button"
+              onClick={() => setShowModal2(false)}
+            >
+              Cerrar
+            </button>
+            <button
+              className="bg-blue-500 shadow-md shadow-blue-500/50 hover:bg-blue-700 text-white font-bold text-lg py-2 px-4 rounded"
+              type="button">
+              <Link href='https://api.whatsapp.com/send?phone=5492995125034&text=Buenas!%20Quiero%20mas%20informacion%20sobre%20el%20curso%20PADI%20Open%20Water'>Me interesa</Link>
+            </button>
+          </div>
         </div>
-        
       </div>
-      
-      )
-
-       :
-      
-      null}
+    </div>
+    </>
+    ) : null}
 
      {showModal3 ? ( 
       <div className={styles.modal}>
