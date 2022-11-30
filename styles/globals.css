@@ -12,3 +12,7 @@ html {
 .custom-img {
   background-image: url('../public/img/Destination_PADI\ 6.jpg');
 }
+
+.custom-img-banner {
+  background-image: url('https://cdn.discordapp.com/attachments/841443299839574017/1047343133287002143/banner_esba.jpg');
+}

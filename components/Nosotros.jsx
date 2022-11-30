@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Nosotros() {
   return (
-    <div>
+    <div id='nosotros'>
         <div className="text-center mb-12">
                 <h2 className="text-4xl md:text-6xl text-gray-700 font-semibold mt-30">Sobre Nosotros</h2>
         </div>
@@ -26,6 +26,10 @@ export default function Nosotros() {
             </p>
         </div>
     
+        {/* <div className='collapse lg:visible flex items-center justify-center h-[20rem] mb-12 bg-cover bg-fixed custom-img-banner mt-20'>
+        </div> */}
+
+
     </div>
   )
 }
