@@ -7,7 +7,7 @@ export default function specialities() {
     <div>
       <Head>
         <title>ESBA DIVE | Specialities</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://cdn.emojidex.com/emoji/seal/scuba_diver.png" />
       </Head>
       <Specialities />
     </div>
