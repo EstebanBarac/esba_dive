@@ -21,7 +21,7 @@ export default function Cards() {
                         <div class="p-6 ">
                             <h2 className="text-2xl font-bold mb-3">PADI Open Water</h2>
                             <p className="leading-relaxed text-lg mb-3">El PADI Open Water Diver es el primer nivel de certificación de buceo. Un PADI Instructor altamente entrenado te enseñará a bucear en un entorno de aprendizaje relajado y seguro. Aprende los principios y la terminología del buceo, adquiere las destrezas básicas de buceo y conocimientos para bucear en tu entorno local o en el extranjero y ser un embajador del mundo subacuático</p>
-                            <div className="flex items-center flex-wrap ">
+                            <div className="flex flex-col items-center mt-4">
 
                                     <button className='bg-blue-500 shadow-md shadow-blue-500/50 hover:bg-blue-700 text-white font-bold text-lg py-2 px-4 rounded'>
                                         <Link href='/openwater' className="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0">Ver Más
@@ -48,8 +48,7 @@ export default function Cards() {
                                 flotabilidad, probarás el buceo a profundidad y harás tres inmersiones de especialidad de tu
                                 elección. Por cada inmersión de especialidad que completes, puedes obtener crédito para
                                 conseguir certificaciones de especialidad PADI</p>
-                            <div class="flex items-center flex-wrap ">
-
+                            <div class="flex flex-col items-center mt-4 lg:mt-10">
                                     <button className='bg-blue-500 shadow-md shadow-blue-500/50 hover:bg-blue-700 text-white font-bold text-lg py-2 px-4 rounded'>
                                         <Link href='/advanced' class="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0">Ver Más
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
@@ -73,7 +72,7 @@ export default function Cards() {
                                 buceo y certificaciones de especialidad. Tanto si quieres ampliar tus conocimientos de buceo
                                 como experimentar una nueva especialidad de buceo, nuestros cursos te prepararán para la
                                 aventura subacuática.</p>
-                            <div className="flex items-center flex-wrap ">
+                            <div className="flex flex-col items-center mt-4 lg:mt-10">
 
                                     <button className='bg-blue-500 shadow-md shadow-blue-500/50 hover:bg-blue-700 text-white font-bold text-lg py-2 px-4 rounded'>
                                         <Link href='/specialities' className="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0">Ver Más
