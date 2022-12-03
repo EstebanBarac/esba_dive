@@ -7,6 +7,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [color, setColor] = useState('black');
     const [textcolor, setTextColor] = useState('white');
+    const [logo, setLogo] = useState('../public/img/logo_blanco.png');
 
     const handleNav = () => {
         setNav(!nav);
@@ -28,6 +29,20 @@ const Navbar = () => {
         }
         window.addEventListener('scroll', changeColor);
     }, []);
+
+    useEffect(()=> {
+        const changeLogo = () => {
+            if(window.scrollY >= 90) {
+                setLogo('../public/img/logo_blanco.png')       
+            } else {
+                setLogo('../public/img/logo_negro.png')
+            }
+        }
+        window.addEventListener('scroll', changeLogo);
+    }, []);
+
+
+
 
 
 
