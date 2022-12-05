@@ -38,7 +38,7 @@ export default function Footer() {
             
         </div>
         <div className="flex flex-row justify-center mt-4"> 
-            <img src='https://cdn.discordapp.com/attachments/841443299839574017/1049370007043326052/logo_blanco.png' className='h-30 w-40' />
+            <img src='https://cdn.discordapp.com/attachments/841443299839574017/1049370007043326052/logo_blanco.png' className='h-25 w-25' />
         </div>
         
         <p className="mt-8 text-base leading-6 text-center">
