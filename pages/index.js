@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Cards from '../components/Cards';
+import Dan from '../components/Dan';
+import Experiencias from '../components/Experiencias';
 import Hero from '../components/Hero';
 import Nosotros from '../components/Nosotros';
 
@@ -14,6 +16,8 @@ const Home = () => {
       <Hero heading='Esba Dive' message='Cursos de buceo con certificacion internacional'/>
       <Nosotros />
       <Cards />
+      <Experiencias />
+      <Dan />
     </div>
   
   )

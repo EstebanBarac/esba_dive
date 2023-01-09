@@ -57,6 +57,9 @@ const Navbar = () => {
                     <Link href='/#cursos' className='text-lg font-bold'>CURSOS</Link>
                 </li>
                 <li className='p-4'>
+                    <Link href='/#experiencias' className='text-lg font-bold'>EXPERIENCIAS</Link>
+                </li>
+                <li className='p-4'>
                     <Link href='/#nosotros' className='text-lg font-bold'>SOBRE NOSOTROS</Link>
                 </li>
             </ul>

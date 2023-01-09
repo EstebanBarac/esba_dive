@@ -38,12 +38,20 @@ export default function Footer() {
             
         </div>
         <div className="flex flex-row justify-center mt-4"> 
-            <img src='https://cdn.discordapp.com/attachments/841443299839574017/1049370007043326052/logo_blanco.png' className='h-25 w-25' />
+            <img src='https://cdn.discordapp.com/attachments/841443299839574017/1049370007043326052/logo_blanco.png' className='h-15 w-15' />
+        </div>
+
+        <div className="flex flex-row justify-center mt-4"> 
+            <a href='https://www.barac-technology.com/'><img src='https://cdn.discordapp.com/attachments/841443299839574017/1060334312706285598/Group_16_1.png' className='h-[10rem]' /></a>
         </div>
         
         <p className="mt-8 text-base leading-6 text-center">
+            Developed by <a href='https://www.barac-technology.com/'><b>@Barac Technology</b></a>
+        </p>
+        <p className="mt-8 text-base leading-6 text-center">
             © 2022 Esba Dive, All rights reserved.
         </p>
+
 </section>
 
     </div>
