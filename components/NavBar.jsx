@@ -76,6 +76,9 @@ const Navbar = () => {
                         <Link href='/#cursos' onClick={handleNavClose}>Cursos</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
+                        <Link href='/#experiencias' onClick={handleNavClose}>Experiencias</Link>
+                    </li>
+                    <li className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/#nosotros' onClick={handleNavClose}>Sobre Nosotros</Link>
                     </li>
                 </ul>
