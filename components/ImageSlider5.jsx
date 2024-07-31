@@ -5,19 +5,19 @@ import { RxDotFilled } from 'react-icons/rx';
 const ImageSlider = () => {
   const slides = [
     {
-      url: 'https://cdn.discordapp.com/attachments/1053382547800862802/1062111964601532476/IMG_8582.jpg'
+      url: 'https://cdn.discordapp.com/attachments/1053382547800862802/1062111964601532476/IMG_8582.jpg?ex=66ab4d19&is=66a9fb99&hm=e8200745814e76c5cb0a65fb4e7d1b6d0a3b896edaed0e86f641d5d6a866b575&'
     },
     {
-      url: 'https://cdn.discordapp.com/attachments/1053382547800862802/1062114410006577262/DSCI0696.JPG'
+      url: 'https://cdn.discordapp.com/attachments/1053382547800862802/1062114410006577262/DSCI0696.JPG?ex=66ab4f60&is=66a9fde0&hm=cc179cbe588c23269b3e32058956083d0f5db9d381bb574402edf6942d6f2eb5&'
+    }, 
+    {
+      url: 'https://cdn.discordapp.com/attachments/1053382547800862802/1062115251329446061/IMG-8564.jpg?ex=66ab5029&is=66a9fea9&hm=97c90ea78b142527dedffa031452736fc50fa8b61f04c926c3ed4ba18c26ecaf&'
     },
     {
-      url: 'https://cdn.discordapp.com/attachments/1053382547800862802/1062115251329446061/IMG-8564.jpg'
+      url: 'https://cdn.discordapp.com/attachments/1053382547800862802/1062127769988890634/GOPR1890.JPG?ex=66ab5bd1&is=66aa0a51&hm=d4039ea3e40607b312a0fd667dd0c0ca4c2c310a9f193bc67441131e798e24f8&'
     },
     {
-      url: 'https://cdn.discordapp.com/attachments/1053382547800862802/1062128097874411600/GOPR1890.jpg'
-    },
-    {
-      url: 'https://cdn.discordapp.com/attachments/1053382547800862802/1062128323410538586/G0110824.JPG'
+      url: 'https://cdn.discordapp.com/attachments/1053382547800862802/1062128323410538586/G0110824.JPG?ex=66ab5c55&is=66aa0ad5&hm=4b0910e425a5b69790f4978b5493cf7b15a7a4afe6d19315d44887cdd8e5b525&'
     }
   ];
 
