@@ -14,7 +14,7 @@ export default function Specialities() {
                         <div className="p-4">
                             <div className="h-full shadow-2xl shadow-slate-700 rounded-2xl overflow-hidden text-white bg-zinc-800 w-[1/2]">
                                 <img className="lg:h-[30rem]  w-full sm:object-cover object-center"
-                                    src='https://cdn.discordapp.com/attachments/841443299839574017/1047332820336525333/specialities2.jpg' alt="blog" />
+                                    src='https://media.discordapp.net/attachments/841443299839574017/1047332820336525333/specialities2.jpg?ex=66ab9672&is=66aa44f2&hm=0f69a12966e1134242e2e652a1c18e92c59410e3452ad63ceef2195852bfcf70&=&format=webp&width=1014&height=676' alt="blog" />
                                 <div class="p-6 w-[1/2]">
                                     <p className="leading-relaxed text-lg mb-3 w-[1/2] mt-2">Bucea a mayor profundidad en la exploración del planeta azul con habilidades avanzadas de
                                         buceo y certificaciones de especialidad. Tanto si quieres ampliar tus conocimientos de buceo
