@@ -34,22 +34,14 @@ export default function Footer() {
         </div>
     </div>
     <div className="flex flex-row justify-center mt-[-2rem]"> 
-            <img src='https://cdn.discordapp.com/attachments/841443299839574017/1049362567606321213/Rectangle_1_5.png' className='h-40 w-50' />
+            <img src='https://cdn.discordapp.com/attachments/841443299839574017/1049362567606321213/Rectangle_1_5.png?ex=66ab0fcc&is=66a9be4c&hm=b2425e01f4b0742bf32b155f925276473c2d4a2942ab7b833afce3131d169973&' className='h-40 w-50' />
             
         </div>
         <div className="flex flex-row justify-center mt-4"> 
-            <img src='https://cdn.discordapp.com/attachments/841443299839574017/1049370007043326052/logo_blanco.png' className='h-15 w-15' />
+            <img src='https://cdn.discordapp.com/attachments/841443299839574017/1049370007043326052/logo_blanco.png?ex=66ab16ba&is=66a9c53a&hm=c7b97f07e6099dcf801b02565cb1d5f4702f9c2e3eb129860e0cd4c067415524&' className='h-15 w-15' />
         </div>
-
-        <div className="flex flex-row justify-center mt-4"> 
-            <a href='https://www.barac-technology.com/'><img src='https://cdn.discordapp.com/attachments/841443299839574017/1060334312706285598/Group_16_1.png' className='h-[10rem]' /></a>
-        </div>
-        
         <p className="mt-8 text-base leading-6 text-center">
-            Developed by <a href='https://www.barac-technology.com/'><b>@Barac Technology</b></a>
-        </p>
-        <p className="mt-8 text-base leading-6 text-center">
-            © 2022 Esba Dive, All rights reserved.
+            © 2024 Esba Dive, All rights reserved.
         </p>
 
 </section>
