@@ -14,7 +14,7 @@ export default function OpenWater() {
                         <div className="p-4">
                             <div className="h-full shadow-2xl shadow-slate-700 rounded-2xl overflow-hidden text-white bg-zinc-800 w-[1/2]">
                                 <img className="lg:h-[30rem]  w-full sm:object-cover object-center"
-                                    src='https://media.discordapp.net/attachments/841443299839574017/1047331354645377084/advanced.jpg?ex=66ab9515&is=66aa4395&hm=8b08955f73f863a58910cdbd96a1c069082786827ee52d8122f0101de04216e2&=&format=webp&width=1014&height=676' alt="blog" />
+                                    src='https://cdn.discordapp.com/attachments/841443299839574017/1047331318578556979/open_water.jpg?ex=66ab950c&is=66aa438c&hm=1838bb503f0571b3dd855856ef6d3364ae1939272b1a0abc6f0eb8be33374822&' alt="blog" />
                                 <div class="p-6 w-[1/2]">
                                     <p className="leading-relaxed text-lg mb-3 font-semibold">El curso Open Water, es el primer nivel de las certificaciones de Buceo PADI, finalizado el curso te permite realizar inmersiones en cualquier parte del mundo hasta una profundidad máxima de 18 metros,
                             habilitando también a la renta de equipamiento en caso de ser necesario.</p>
