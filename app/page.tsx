@@ -106,12 +106,12 @@ export default function Home() {
             <div className="absolute inset-0 bg-blue-900 bg-opacity-20"></div>
           </div>
           <div className="container mx-auto px-4 relative z-10">
-            <div className="max-w-2xl">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">Descubre el mundo submarino con ESBA DIVE</h1>
+            <div className="max-w-2xl mt-20">
+              <h1 className="text-4xl md:text-5xl font-bold drop-shadow-lg ">Descubre el mundo submarino con ESBA DIVE</h1>
               <p className="text-xl mb-6 drop-shadow">Ofrecemos cursos de buceo para todos los niveles. ¡Sumérgete en una nueva aventura!</p>
-              <Button size="lg" className="bg-white text-blue-500 hover:bg-blue-100">
+              {/* <Button size="lg" className="bg-white text-blue-500 hover:bg-blue-100">
                 Explora nuestros cursos
-              </Button>
+              </Button> */}
             </div>
           </div>
         </section>
@@ -125,9 +125,9 @@ export default function Home() {
                   <Image
                     src={course.image}
                     alt={course.title}
-                    width={300}
-                    height={200}
-                    className="w-full h-48 object-cover rounded-t-lg"
+                    width={400}
+                    height={300}
+                    className="w-full h-64 object-cover rounded-t-lg"
                   />
                   <CardHeader>
                     <CardTitle>{course.title}</CardTitle>
