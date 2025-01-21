@@ -9,14 +9,14 @@ interface GalleryItem {
 
 const galleryItems: GalleryItem[] = [
   { src: "/DSCI0304.JPG", alt: "Buceo en arrecife de coral", location: "Sodwana Bay, Sudáfrica", date: "Septiembre 2019" },
-  { src: "/DSCI0246.jpg", alt: "Encuentro con tiburón ballena", location: "Islas Galápagos, Ecuador", date: "Agosto 2020" },
-  { src: "/DSCI0289.jpg", alt: "Exploración de naufragio", location: "Vilankulo, Mozambique", date: "Septiembre 2019" },
-  { src: "/DSCI0347.jpg", alt: "Buceo en cueva submarina", location: "Islas Galápagos, Ecuador", date: "Julio 2020" },
-  { src: "/DSCI0383.jpg", alt: "Buceo nocturno", location: "Islas Galápagos, Ecuador", date: "Septiembre 2020" },
-  { src: "/DSCN2111.jpg", alt: "Buceo con mantas gigantes", location: "Isla de Cozumel, México", date: "Mayo 2018" },
-  { src: "/DSCN2339.jpg", alt: "Buceo en kelp forest", location: "Isla de Cozumel, México", date: "Mayo 2018" },
-  { src: "/DSCN2624.jpg", alt: "Buceo con delfines", location: "Isla de Cozumel, México", date: "Junio 2018"},
-  { src: "/DSCN3351.jpg", alt: "Buceo en aguas cristalinas", location: "Isla de Cozumel, México", date: "Junio 2018" },
+  { src: "/DSCI0246.JPG", alt: "Encuentro con tiburón ballena", location: "Islas Galápagos, Ecuador", date: "Agosto 2020" },
+  { src: "/DSCI0289.JPG", alt: "Exploración de naufragio", location: "Vilankulo, Mozambique", date: "Septiembre 2019" },
+  { src: "/DSCI0347.JPG", alt: "Buceo en cueva submarina", location: "Islas Galápagos, Ecuador", date: "Julio 2020" },
+  { src: "/DSCI0383.JPG", alt: "Buceo nocturno", location: "Islas Galápagos, Ecuador", date: "Septiembre 2020" },
+  { src: "/DSCN2111.JPG", alt: "Buceo con mantas gigantes", location: "Isla de Cozumel, México", date: "Mayo 2018" },
+  { src: "/DSCN2339.JPG", alt: "Buceo en kelp forest", location: "Isla de Cozumel, México", date: "Mayo 2018" },
+  { src: "/DSCN2624.JPG", alt: "Buceo con delfines", location: "Isla de Cozumel, México", date: "Junio 2018"},
+  { src: "/DSCN3351.JPG", alt: "Buceo en aguas cristalinas", location: "Isla de Cozumel, México", date: "Junio 2018" },
 ]
 
 export function Gallery() {
